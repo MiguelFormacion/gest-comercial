@@ -1,0 +1,102 @@
+import Customer from '../interfaces/customers.interface';
+
+const customers: Array<Customer> = [
+  {
+    "_id": "5d1b2a1039d29d1536447664",
+    "index": 0,
+    "guid": "7a5240c3-a6ea-4660-be4d-3954df1c5d2f",
+    "isActive": true,
+    "balance": "$3,509.10",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": "Woodward Sanders",
+    "gender": "male",
+    "company": "ZIDOX",
+    "email": "woodwardsanders@zidox.com",
+    "phone": "+1 (894) 479-2068",
+    "address": "295 Harbor Lane, Jacksonwald, Maryland, 6932"
+  },
+  {
+    "_id": "5d1b2a10c75deb0bfe84fce2",
+    "index": 1,
+    "guid": "5a0d92e4-139d-499c-89c2-fdbea0ef8317",
+    "isActive": false,
+    "balance": "$3,426.74",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Jodi England",
+    "gender": "female",
+    "company": "IMPERIUM",
+    "email": "jodiengland@imperium.com",
+    "phone": "+1 (886) 562-2024",
+    "address": "603 Knapp Street, Rutherford, New Jersey, 273"
+  },
+  {
+    "_id": "5d1b2a1008d1150a105bbe53",
+    "index": 2,
+    "guid": "a2718f82-cd34-4922-95db-4bde1b8af194",
+    "isActive": false,
+    "balance": "$3,661.35",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": "Robles Wilkerson",
+    "gender": "male",
+    "company": "AQUACINE",
+    "email": "robleswilkerson@aquacine.com",
+    "phone": "+1 (877) 551-3525",
+    "address": "236 President Street, Reinerton, Mississippi, 7003"
+  },
+  {
+    "_id": "5d1b2a10a1ce6cf422422d2b",
+    "index": 3,
+    "guid": "ffbea8c1-f817-417c-9a56-23d137c83cd6",
+    "isActive": false,
+    "balance": "$1,847.91",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Sheppard Preston",
+    "gender": "male",
+    "company": "EXOTECHNO",
+    "email": "sheppardpreston@exotechno.com",
+    "phone": "+1 (814) 462-2361",
+    "address": "251 Court Square, Williamson, Oklahoma, 4240"
+  },
+  {
+    "_id": "5d1b2a10cda3ed47d17a6e5d",
+    "index": 4,
+    "guid": "aa09f61a-b3dc-49b8-85f5-3b3dd65b60cb",
+    "isActive": true,
+    "balance": "$3,502.61",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "blue",
+    "name": "Brittany Howard",
+    "gender": "female",
+    "company": "COMTENT",
+    "email": "brittanyhoward@comtent.com",
+    "phone": "+1 (844) 509-2088",
+    "address": "427 Ridge Boulevard, Gorham, Virginia, 4268"
+  },
+  {
+    "_id": "5d1b2a106dfee2dc2a5af8f4",
+    "index": 5,
+    "guid": "22e58c63-a668-4d93-99d8-a970b352a4cf",
+    "isActive": true,
+    "balance": "$1,335.42",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Angelita Faulkner",
+    "gender": "female",
+    "company": "DATACATOR",
+    "email": "angelitafaulkner@datacator.com",
+    "phone": "+1 (850) 439-2677",
+    "address": "953 Kings Hwy, Titanic, Vermont, 3178"
+  }
+]
+
+export default customers;

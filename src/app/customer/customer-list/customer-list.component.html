@@ -1,1 +1,8 @@
-<p>customer-list works!</p>
+
+
+<ul *ngFor="let item of clientes">
+  <li>
+   <a routerLink="customer/{{item._id}}">{{ item.name }}</a>
+  </li>
+</ul>
+

@@ -1,1 +1,21 @@
-<p>customer-data works!</p>
+<div *ngFor="let item of clientes">
+  <div *ngIf="identifier===item._id">
+    <ng-container>
+       <p>{{ item._id }}</p>
+       <p>{{ item.index }}</p>
+       <p>{{ item.guid }}</p>
+       <p>{{ item.isActive }}</p>
+       <p>{{ item.balance }}</p>
+       <p>{{ item.picture }}</p>
+       <p>{{ item.age }}</p>
+       <p>{{ item.eyeColor }}</p>
+       <p>{{ item.name }}</p>
+       <p>{{ item.gender }}</p>
+       <p>{{ item.company }}</p>
+       <p>{{ item.email }}</p>
+       <p>{{ item.phone }}</p>
+       <p>{{ item.address }}</p>
+    </ng-container>
+  </div>
+
+</div>
